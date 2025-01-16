@@ -1,0 +1,166 @@
+# Ignore the build/ and publish/ directories.
+build/
+publish/
+
+# Ignore .NET artifacts
+*.dll
+*.pdb
+*.exe
+*.log
+*.vspscc
+*.vssscc
+*.user
+*.cache
+*.suo
+*.csproj.user
+*.csproj.DotSettings
+bin/
+obj/
+test-results/
+
+# Ignore NuGet Packages
+*.nupkg
+packages/
+
+# Ignore build directories and incomplete packages.
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore by-products of NuGet
+*.nupkg
+*.nuspec
+.nuget/
+
+# ignore build outputs
+/build
+
+# Ignore any user-specific files
+*.swp
+*.swo
+*.tmp
+*.userosscache
+*.sln.docstates
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignore Visual Studio Code settings folder
+.vscode/
+
+# Ignore JetBrains Rider specific folders and files
+.idea/
+*.idea/*
+
+# Ignore other IDEs and editors
+.vscode/
+.vscode/test.code-workspace
+
+# Ignore logs and build results
+logs
+*.log
+*.cpuprofile
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore token files
+.env
+
+# Ignore py files compiled artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.junk/
+
+# Ignore coverage results
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore subdirectories of newer NPM modules (v3+)
+*node_modules/*
+/.endless-fallback/
+
+# Ignore .Net Core
+**/project.lock.json
+**/project.fragment.lock.json
+**/artifacts/
+/.vsixpubtmp/
+
+# Ignore the generated fsproj file for multi project templates
+jetbrains-sessions/
+ReSharper*
+
+# Node.js Files
+npm-debug.log*
+
+# Exclude .Net Core packages
+*.deps.json
+*.runtimeconfig.json
+
+# Ignore test project dependencies
+.vsts/
+*.diagsession
+debug.log
+
+# Ignore compiled output
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.dylib
+*.dll
+*.eot
+*.otf
+*.ttf
+*.woff
+*.woff2
+
+# Exclude Bower
+lib/
+bower_components/
+
+# Exclude Yeoman
+.yo-rc.json
+
+# Ignore subdirs v2
+*node_modules/
+.npm
+.yarn
+.cache/yarn
+
+# Exclude lockfiles
+PackageWriter.lock
+
+# Ignore temporary files
+*.tmp/
+*.tmp
+
+# Docker Ignore
+docker-compose.*
+docker-compose.override.yml
+
+# Ignore downloaded content
+dependencies/
+
+# Exclude runtime
+.runtime
+
+# Exclude build output
+/build
+.lunaintersteller_auth
+.eventstore-auth
+
